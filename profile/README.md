@@ -1,4 +1,4 @@
-![DevOps-Organisation-Info](https://github.com/DevOps-Automation-Projects/.github/blob/main/profile/pic-1.gif)
+![DevOps-Organisation-Info](https://github.com/DevOpsCloudNinjas/.github/blob/main/profile/pic-1.gif)
 
 ---
 # DevOps Automations and Developments
@@ -10,7 +10,7 @@
 
 ### 1. Development and Build Tooling
 
-![Devops-Buildtools](https://github.com/DevOps-Automation-Projects/.github/blob/main/profile/Devops-Buildtools.png)
+![Devops-Buildtools](https://github.com/DevOpsCloudNinjas/.github/blob/main/profile/Devops-Buildtools.png)
 
 **DevOps Build Tools** is a category can orchestrate multiple event streams and integrate easily with external tooling
 
@@ -22,7 +22,7 @@ Tools in this slice of the software development lifecycle fit into three sub-cat
 
 ### 2. Automated Testing Tools
 
-![Automated-Testing-Tools](https://github.com/DevOps-Automation-Projects/.github/blob/main/profile/Automated-Testing-Tools.png)
+![Automated-Testing-Tools](https://github.com/DevOpsCloudNinjas/.github/blob/main/profile/Automated-Testing-Tools.png)
 
 We must start an evaluation of automated testing tools by first fitting them into the testing pyramid. The testing pyramid has 4 layers:
 
@@ -36,7 +36,7 @@ We must start an evaluation of automated testing tools by first fitting them int
 
 ### 3. Deployment Tooling
 
-![Deployment Tooling](https://github.com/DevOps-Automation-Projects/.github/blob/main/profile/Deployment-Tooling.png)
+![Deployment Tooling](https://github.com/DevOpsCloudNinjas/.github/blob/main/profile/Deployment-Tooling.png)
 
 **Deployment tooling** is probably the least understood aspect of application development. For operations folks, it’s hard to use a deployment tool without a deep understanding of the application code and functionality. For developers, managing code deployments is a new responsibility so they have little experience with many deployment tools.
 
@@ -47,7 +47,7 @@ First, let’s break down deployment tooling into three sub-categories:
 
 ### 4. Collaboration DevOps Tooling
 
-![Collaboration DevOps Tooling](https://github.com/DevOps-Automation-Projects/.github/blob/main/profile/Collaboration-DevOps-Tooling.png)
+![Collaboration DevOps Tooling](https://github.com/DevOpsCloudNinjas/.github/blob/main/profile/Collaboration-DevOps-Tooling.png)
 
 **Collaboration DevOps Tooling** is a DevOps first and foremost is about culture change within an organization. While buying a tool won’t change the culture overnight, it can certainly help foster new means of working with your colleagues.
 
@@ -58,7 +58,7 @@ Collaboration Tooling sub-categories are:
 
 ### 5. Runtime DevOps Tooling
 
-![Runtime DevOps Tooling](https://github.com/DevOps-Automation-Projects/.github/blob/main/profile/Runtime-DevOps-Tooling.png)
+![Runtime DevOps Tooling](https://github.com/DevOpsCloudNinjas/.github/blob/main/profile/Runtime-DevOps-Tooling.png)
 
 **Runtime DevOps Tooling** is the end-goal of any development project is running our application in production. In a DevOps world, we want to ensure we have visibility into any potential issues with our environment and we also want to keep human manual intervention to a minimum. Choosing the correct set of runtime tools is critical to reaching development nirvana.
 
@@ -70,6 +70,6 @@ Runtime tooling sub-categories are:
 
 ### Major info of this Organization
 
-There are literally hundreds of DevOps tools on the market. It can be overwhelming to try to navigate which ones should be used and when they should be implemented. Follow this **DevOps-Automation-Projects Organization** to choosing your DevOps tooling stack for a complete practises and projects.
+There are literally hundreds of DevOps tools on the market. It can be overwhelming to try to navigate which ones should be used and when they should be implemented. Follow this **DevOpsCloudNinjas Organization** to choosing your DevOps tooling stack for a complete practises and projects.
 
 ### 𝑅𝑒𝑚𝑒𝑚𝑏𝑒𝑟: 𝐴𝑢𝑡𝑜𝑚𝑎𝑡𝑒 𝑎𝑙𝑙 𝑡ℎ𝑒 𝑡ℎ𝑖𝑛𝑔𝑠! 😁
