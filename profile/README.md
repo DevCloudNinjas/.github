@@ -1,4 +1,4 @@
-![DevOps-Organisation-Info](https://github.com/DevOps-Automation-Projects/.github/blob/main/profile/DevOps.Organization-Info.png)
+![DevOps-Organisation-Info](./pic-1.gif)
 
 ---
 # DevOps Automations and Developments
