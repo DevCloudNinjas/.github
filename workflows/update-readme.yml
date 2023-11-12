@@ -1,0 +1,46 @@
+name: Update README with Repositories List
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch repository list from GitHub API
+        id: repos
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          REPOS=$(curl -H "Authorization: token $GH_TOKEN" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/orgs/DevOpsCloudNinjas/repos?per_page=100" | jq -r '.[] | .name')
+          echo "REPOS=$REPOS" >> $GITHUB_ENV
+
+      - name: Generate Repositories Table
+        run: |
+          README_PATH=".github/profile/README.md"
+          TEMP_FILE="temp_readme.md"
+          EMOJIS=("🔥" "🌟" "💎" "🚀" "🌈" "⚡" "🔮" "🎉" "💡" "🎯")
+          echo "### Our Repositories" > $TEMP_FILE
+          echo "| # | Repository |" >> $TEMP_FILE
+          echo "| --- | --- |" >> $TEMP_FILE
+          i=0
+          for REPO in $REPOS; do
+            EMOJI=${EMOJIS[$((i % ${#EMOJIS[@]}))]}
+            echo "| $EMOJI | [$REPO](https://github.com/DevOpsCloudNinjas/$REPO) |" >> $TEMP_FILE
+            ((i++))
+          done
+          # Append the existing README contents after the table
+          cat $README_PATH >> $TEMP_FILE
+          mv $TEMP_FILE $README_PATH
+
+      - name: Commit and push if README.md has changed
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add .github/profile/README.md
+          git commit -m "Update README with list of repositories" || exit 0
+          git push
